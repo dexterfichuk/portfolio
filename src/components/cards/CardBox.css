@@ -4,12 +4,17 @@
 }
 
 .cardbox-card {
-    width: 20rem;
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
+    min-width: 18rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     border-radius: 0px;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
+    transition: all 1s cubic-bezier(.155,.86,0,1),box-shadow .2s ease-out;
+}
+
+.cardbox-card:hover {
+    box-shadow: 0 15px 40px rgba(0,0,0,.45);
 }
 
 .cardbox-card .card-body {
