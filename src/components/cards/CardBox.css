@@ -1,0 +1,36 @@
+.horizontal-slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardbox-card {
+    width: 20rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+.cardbox-card .card-body {
+    padding: 2rem;
+}
+
+.cardbox-card .card-title {
+    font-weight: 800;
+    font-size: 22px;
+    padding-bottom: 2.5rem;
+}
+.cardbox-card .card-excerpt {
+    font-size: 14px;
+}
+
+.cardbox-card .cardbox-date {
+    font-weight: 700;
+    font-size:9px;
+}
+
+.cardbox-card .card-img-top {
+    height: 10rem;
+    object-fit: cover;
+}
