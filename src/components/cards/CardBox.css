@@ -1,13 +1,19 @@
 .horizontal-slider {
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
 }
 
+.horizontal-slider::-webkit-scrollbar {
+    display: none;
+  }
+
 .cardbox-card {
-    min-width: 18rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    min-width: 19rem;
+    max-width: 19rem;
+    margin: 2rem 1rem 4rem 1rem;
     border-radius: 0px;
+    border: 0px;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     transition: all 1s cubic-bezier(.155,.86,0,1),box-shadow .2s ease-out;
@@ -19,15 +25,18 @@
 
 .cardbox-card .card-body {
     padding: 2rem;
+    
 }
 
 .cardbox-card .card-title {
     font-weight: 800;
     font-size: 22px;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.25rem;
 }
+
 .cardbox-card .card-excerpt {
     font-size: 14px;
+    line-height: 24px
 }
 
 .cardbox-card .cardbox-date {
@@ -36,6 +45,21 @@
 }
 
 .cardbox-card .card-img-top {
-    height: 10rem;
+    height: 100%;
     object-fit: cover;
+    position: relative;
+    filter: grayscale(100%) brightness(1.5);
+}
+
+.cardbox-card .img-container {
+    height: 10rem;
+}
+.cardbox-card .color-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 10rem;    
+    filter: opacity(.5)
+    ;
 }

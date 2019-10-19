@@ -10,6 +10,8 @@ function App() {
     <div className="App">
       <br/>
       <CardBox events={events}></CardBox>
+      
+      <p>test font</p>
     </div>
   );
 }
