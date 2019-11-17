@@ -1,7 +1,15 @@
 export const events = [
     {
+        title: 'Data Innovation Summit',
+        imageUrl: 'https://datainnovationsummit.com/wp-content/uploads/2019/09/Timo-DIS2018.jpg',
+        date: 'March 19th, 2020',
+        description: 'The best way to consume React-Bootstrap is via the npm package which you can install with npm (or yarn if you prefer).',
+        mainColor: '#caf5fc',
+        backgroundColor: '#0f1d4d'
+    },
+    {
         title: 'RE•WORK Responsible AI Summit',
-        imageUrl: 'https://www.re-work.co/assets/event_carousel_images/event-image-3-5b488e3f8da3aaef44d3b6cf0d1980937064ee1b1a4870cb877621e53075c739.jpg',
+        imageUrl: 'https://pbs.twimg.com/media/EHp7Y6lX4AIDomL?format=jpg&name=4096x4096',
         date: 'October 24th, 2019',
         description: 'Talk on how bias can work its way into production models going unnoticed.',
         mainColor: '#ba3535',
@@ -14,14 +22,6 @@ export const events = [
         description: 'The best way to consume React-Bootstrap is via the npm package which you can install with npm (or yarn if you prefer).',
         mainColor: '#6a2db3',
         backgroundColor: '#e9e0f1'
-    },
-    {
-        title: 'The retail crisis is now a landlord crisis',
-        imageUrl: 'https://eventcatalogue.com/wp-content/uploads/2019/08/Events4.jpg',
-        date: 'October 24th, 2019',
-        description: 'The best way to consume React-Bootstrap is via the npm package which you can install with npm (or yarn if you prefer).',
-        mainColor: '#caf5fc',
-        backgroundColor: '#0f1d4d'
     },
     {
         title: 'The retail crisis is now a landlord crisis',

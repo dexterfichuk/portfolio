@@ -11,7 +11,7 @@
 .cardbox-card {
     min-width: 19rem;
     max-width: 19rem;
-    margin: 2rem 1rem 4rem 1rem;
+    margin: 1.5rem 1rem 3rem 1rem;
     border-radius: 0px;
     border: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -41,7 +41,7 @@
 
 .cardbox-card .cardbox-date {
     font-weight: 700;
-    font-size:9px;
+    font-size:11px;
 }
 
 .cardbox-card .card-img-top {

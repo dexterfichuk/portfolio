@@ -1,5 +1,6 @@
 import React from 'react';
 import CardBox from './components/cards/CardBox';
+import Heading from './components/headings/Heading';
 import {events} from './data/events';
 import logo from './logo.svg';
 import './App.css';
@@ -9,10 +10,11 @@ function App() {
     
     <div className="App">
       <br/>
+      <Heading text={'Dexter Fichuk'}></Heading>
+
+      <Heading text={'Speaking'}></Heading>
       <CardBox events={events}></CardBox>
-      
-      <p>test font</p>
-    </div>
+          </div>
   );
 }
 
